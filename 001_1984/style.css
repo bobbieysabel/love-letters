@@ -34,11 +34,21 @@ body {
 }
 
 #yellow-building {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(auto-fit, 0.75rem);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.375rem;
   grid-column: 1/6;
   grid-row: -1/1;
+  padding: .875rem .4375rem;
   height: 100vh;
   background: #f5be2c;
   z-index: 2;
+}
+
+.black-window {
+    background: #241721; 
 }
 
 #black-building {
