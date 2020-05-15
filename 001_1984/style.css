@@ -101,4 +101,6 @@ body {
 
 .black-window {
     background: #241721; 
+    height: 0; /* makes windows square */
+    padding-top: 100%; /* makes windows square */
 }
