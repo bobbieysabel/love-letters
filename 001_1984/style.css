@@ -12,6 +12,7 @@ body {
   margin: 0;
 }
 
+/* creates the two sections of the site */
 #cover {
   display: grid;
   grid-template-columns: repeat(14, 1fr);
@@ -24,6 +25,8 @@ body {
 #passage {
   margin: 2.5rem;
 }
+
+/* creates the various buildings on the cover */
 
 #sky {
   grid-column: 6/15;
@@ -45,10 +48,6 @@ body {
   height: 100vh;
   background: #f5be2c;
   z-index: 2;
-}
-
-.black-window {
-    background: #241721; 
 }
 
 #black-building {
@@ -89,4 +88,10 @@ body {
   height: 17vh;
   background: #19111d;
   z-index: 6;
+}
+
+/* creates the windows on the building */
+
+.black-window {
+    background: #241721; 
 }
