@@ -1,82 +1,82 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  html {
-      font-size: 16px;
-  }
+html {
+  font-size: 16px;
+}
 
-  body {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin: 0;
-  }
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
 
-  #cover {
-    display: grid;
-    grid-template-columns: repeat(14, 1fr);  
-    grid-template-rows: 1fr;
-    align-items: end;
-    height: 100vh;
-      background: #455179;
-  }
+#cover {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: 1fr;
+  align-items: end;
+  height: 100vh;
+  background: #455179;
+}
 
-  #passage {
-      margin: 2.5rem;
-  }
+#passage {
+  margin: 2.5rem;
+}
 
-  #sky {
-    grid-column: 6/15;
-    grid-row: -1/1;
-    height: 100vh;
-    background: #455179;
-    z-index: 1;
-  }
+#sky {
+  grid-column: 6/15;
+  grid-row: -1/1;
+  height: 100vh;
+  background: #455179;
+  z-index: 1;
+}
 
-  #yellow-building {
-      grid-column: 1/6;
-      grid-row: -1/1;
-      height: 100vh;
-      background: #F5BE2C;
-      z-index: 2;
-  }
+#yellow-building {
+  grid-column: 1/6;
+  grid-row: -1/1;
+  height: 100vh;
+  background: #f5be2c;
+  z-index: 2;
+}
 
-  #black-building {
-      grid-column: 9/15;
-      grid-row-start: 1;
-      height: 83vh;
-      background: #241721;
-      z-index: 3;
-  }
+#black-building {
+  grid-column: 9/15;
+  grid-row-start: 1;
+  height: 83vh;
+  background: #241721;
+  z-index: 3;
+}
 
-  #red-building {
-      grid-column: 4/10;
-      grid-row-start: 1;
-      height: 70vh;
-      background: #912026;
-      z-index: 4;
-  }
+#red-building {
+  grid-column: 4/10;
+  grid-row-start: 1;
+  height: 70vh;
+  background: #912026;
+  z-index: 4;
+}
 
-  #green-building {
-      grid-column: 1/5;
-      grid-row-start: 1;
-      height: 35vh;
-      background: #6F6842;
-      z-index: 5;
-  }
+#green-building {
+  grid-column: 1/5;
+  grid-row-start: 1;
+  height: 35vh;
+  background: #6f6842;
+  z-index: 5;
+}
 
-  #cream-building {
-      grid-column: 13/15;
-      grid-row-start: 1;
-      height: 28vh;
-      background: #F8C782;
-      z-index: 6;
-  }
+#cream-building {
+  grid-column: 13/15;
+  grid-row-start: 1;
+  height: 28vh;
+  background: #f8c782;
+  z-index: 6;
+}
 
-  #black-red-building {
-      grid-column: 7/13;
-      grid-row-start: 1;
-      height: 17vh;
-      background: #19111D;
-      z-index: 6;
-  }
+#black-red-building {
+  grid-column: 7/13;
+  grid-row-start: 1;
+  height: 17vh;
+  background: #19111d;
+  z-index: 6;
+}
