@@ -8,11 +8,15 @@
 
   body {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 50vw));
+      grid-template-columns: 1fr 1fr;
       margin: 0;
   }
 
   #cover {
       height: 100vh;
       background: #455179;
+  }
+
+  #passage {
+      margin: 2.5rem;
   }
