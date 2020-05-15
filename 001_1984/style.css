@@ -13,10 +13,49 @@
   }
 
   #cover {
-      height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);  
+    height: 100vh;
       background: #455179;
   }
 
   #passage {
       margin: 2.5rem;
+  }
+
+  #sky {
+    grid-column: 6/15;
+    background: #455179;
+    
+  }
+
+  #yellow-building {
+      grid-column: 1/6;
+      background: #F5BE2C;
+      
+  }
+
+  #black-building {
+      grid-column: 9/15;
+      background: #241721;
+  }
+
+  #red-building {
+      grid-column: 4/10;
+      background: #912026;
+  }
+
+  #green-building {
+      grid-column: 1/5;
+      background: #6F6842;
+  }
+
+  #cream-building {
+      grid-column: 13/15;
+      background: #F8C782;
+  }
+
+  #black-red-building {
+      grid-column: 7/13;
+      background: #19111D;
   }
