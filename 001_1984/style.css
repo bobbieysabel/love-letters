@@ -45,16 +45,16 @@ body {
 }
 
 #yellow-building > div {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(auto-fit, 0.75rem);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 1.375rem;
-    padding: .875rem .4375rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(auto-fit, 0.75rem);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1.375rem;
+  padding: 0.875rem 0.4375rem;
 }
 
 #yellow-building--1 {
-    height: 24vh;
+  height: 24vh;
 }
 
 #black-building {
@@ -97,10 +97,36 @@ body {
   z-index: 6;
 }
 
-/* creates the windows on the building */
+/* creates the windows on the buildings */
 
 .black-window {
-    background: #241721; 
-    height: 0; /* makes windows square */
-    padding-top: 100%; /* makes windows square */
+  background: #241721;
+  height: 0; /* makes windows square */
+  padding-top: 100%; /* makes windows square */
+}
+
+/* styles text on the cover */
+#author {
+  font-family: Old Standard TT;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 4rem;
+  color: #fede95;
+}
+
+.covertext {
+  font-family: Short Stack;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.covertext--black {
+  color: #241721;
+}
+
+.covertext--cream {
+  color: #ffeedd;
 }
