@@ -14,15 +14,18 @@ function getVerticalDistance(elem1, elem2) {
     return px;
   }
   
+  /*just choosing this number for now, should probably make these global at some point*/
   let someNumber = vhTOpx(7.5);
   
   
-    let i = 0;
+  /*all this stuff adds the windows*/
+    var i = 0;
   var vDist;
   var elem;
   var win;
-  for (let a = 0; a < 35; a++) {
-    /* do {*/
+
+   do {
+    i++;
       elem = document.getElementById("yellow-building--1");
   win = document.createElement("div");
   win.classList.add("black-window");
@@ -33,13 +36,10 @@ function getVerticalDistance(elem1, elem2) {
       console.log(vDist);
       console.log(someNumber);
       console.log(i);
-    
-    i++;
       
-  /*  } while (vDist > someNumber);*/
-  }
+    } while (vDist > someNumber);
+
+    elem = document.getElementById("bwin" + i);
+    elem.parentNode.removeChild(elem);
+
    
-  
-  
-  
-  
